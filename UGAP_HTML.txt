@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Unified Governance Access Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+<style>
+body{font-family: Arial, Helvetica, sans-serif}
+a:link, a:visited {
+  background-color: #03FE4B;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+div.a{text-align: center}
+</style>
+</head>
+<body>
+<div class="a">
+<img src="Screenshot 2019-04-11 at 10.01.52.jpg" alt="Map Preview" width="700" height="400">
+<h1>Unified Governance Access Portal</h1>
+<p>This is a map that helps people understand and use information about Dry Waste Collection Centres better. This is created using Google MyMaps, hence on clicking the link, you will be redirected to the Google Maps application/website on your device.</p>
+<a href="https://drive.google.com/open?id=1IuvPcJgZ0uU3S9ndnbrcbsXDEgcMY9up&usp=sharing">Please click on this link to open map.</a>
+</div>
+<form action="UGAP.html" target="_self">
+First Name:<br>
+<input type="text" name="firstname"><br>
+Last Name:<br>
+<input type="text" name="lastname"><br>
+<input type="radio" name="gender" value="male"> Male<br><br>
+<input type="radio" name="gender" value="female"> Female<br><br>
+<input type="radio" name="gender" value="others"> Others<br><br>
+Age:<br>
+<input type="text" name="age"><br>
+City:<br>
+<input type="text" name"city"><br>
+Country:<br>
+<input type="text" name="country"><br>
+<input type="submit" value"Submit">
+</form>
+</body>
+</html>
